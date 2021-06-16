@@ -6,9 +6,13 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>E-Market</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     
+    <link rel="shortcut icon" href="/saptak.png" type="image/png">
 
     </head>
 
@@ -18,7 +22,7 @@
         body{
     background-image: url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
     margin: 0;    
-    height: 100vh;
+    height: 98vh;
     background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,4 +246,95 @@ text-decoration: underline;
 .nav_button:hover{
   background-color: rgb(84, 117, 207);;
 }
+
+
+/*===========================
+    11.FOOTER css 
+===========================*/
+.footer_area {
+  background-color: rgba(43, 42, 61, 0.7);
+padding-top: 10px;
+}
+
+.footer_menu ul li {
+  display: inline-block;
+
+}
+.footer_social{
+  padding-right: 30px;
+}
+
+
+@media (max-width: 767px) {
+  .footer_menu ul li + li {
+    margin-left: 5px;
+  }
+}
+
+.footer_menu ul li a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer_menu ul li a:hover {
+  color: #fff;
+}
+
+.credit {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #eff7f6;
+  padding-top: 15px;
+}
+
+.credit a {
+  color: #fff;
+}
+
+.footer_social ul li {
+  display: inline-block;
+}
+
+.footer_social ul li + li {
+  margin-left: 20px;
+}
+
+.footer_social ul li a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer_social ul li a:hover {
+  color: #000000;
+  opacity: 0.5;
+}
+
+.about_social ul li {
+  display: inline-block;
+}
+
+.about_social ul li + li {
+  margin-left: 10px;
+}
+
+.about_social ul li a {
+  font-size: 20px;
+  color: #495057;
+  transition: all 0.3s ease-out 0s;
+}
+
+.about_social ul li a:hover {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 767px) {
+  .footer_social ul li a {
+    font-size: 20px;
+  }
+}
+
+
     </style>

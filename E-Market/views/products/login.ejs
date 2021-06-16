@@ -1,0 +1,21 @@
+<%- include('assets/header')%>
+
+<%- include('assets/navbar')%>
+
+<div class="container main">
+    <h1>Login</h1>
+    <form class="register_box" action="/products/login" method="POST">
+        <div class="mb-3">
+            <label class="form-label" for="username">Email</label>
+            <input class="form-control form_box" type="email" name="username" id="username" placeholder="Enter Username">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="password">Password</label>
+            <input class="form-control form_box" type="password" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <button class="btn btn-outline-success">Login</button>
+    </form>
+    <p class="display-6"><span >If not registered</span>  &nbsp<a class="btn btn-outline-dark" href="/products/register">Register</a></p>
+</div>
+</div>
+<%- include('assets/footer')%>

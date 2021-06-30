@@ -6,10 +6,13 @@ Front-End-
 
 Back-End
 1. Javascript is used to connect the backend functionality of CRUD with the package of Method override in Nodejs.
+
 2. ExpressJs server is used to connect to the server and database with NodeJs.
+
 3.Login authentication is done using
    -Bcrypt - package for hashing the passwords and validating the user 
    -Express Session - package used for keeping the session when an user is logged in
+
 3.MongoDB database is used to connect to the database along with the express server and 
    -store information of the products added,updated or deleted using CRUD
    -store information of the new user who is registering and entering the website

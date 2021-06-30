@@ -10,15 +10,11 @@ Back-End
 2. ExpressJs server is used to connect to the server and database with NodeJs.
 
 3.Login authentication is done using
-  
   -Bcrypt - package for hashing the passwords and validating the user 
-  
   -Express Session - package used for keeping the session when an user is logged in
 
 4.MongoDB database is used to connect to the database along with the express server and 
-  
   -store information of the products added,updated or deleted using CRUD
-  
   -store information of the new user who is registering and entering the website
 
 Project yet to be deployed.
